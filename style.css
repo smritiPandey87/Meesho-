@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width:  100%;
+
+}
+img{
+    width:  200%;
+}
+.header{
+    height: 78px;
+     outline: 1px solid rgba(185, 184, 185, 0.889);
+    padding: 0px 9px;
+    display: flex;
+    align-items: center;
+}
+.logoContainer{
+    width: 155px;
+}
+
+.searchInputContainer{
+    width: 350px;
+    height: 40px;
+    outline: 1px solid rgba(185, 184, 185, 0.889);
+    display: flex;
+    align-items: center;
+}
+.searchIcon{
+    width: 20px;
+}
+.inputSearch{
+    width: 100%;
+}
