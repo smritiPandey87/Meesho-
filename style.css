@@ -22,15 +22,57 @@ img{
 }
 
 .searchInputContainer{
-    width: 350px;
-    height: 40px;
+    width: 348px;
+    height: 28px;
     outline: 1px solid rgba(185, 184, 185, 0.889);
+    display: flex;
+    margin-left: 167px;
+    border-radius: 3px;
+    padding: 8px;
+    align-items: center;
+    position: relative;
+
+    }
+.searchIcon{
+    width: 14px;
+}
+form{
+    width: 100%;
+}
+.inputSearch{
+    width: 93%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#closesearch{
+        display: none;
+}
+.searchRecentModel{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 29px;
+    /* outline: 1px solid rgba(185, 184, 185, 0.889); */
+    height: 350px;
+    width: 93%;
+    margin-top: 28px;
+    display: none;
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgba(185, 184, 185, 0.889);
+    
+
+
+}
+.searchInputContainer:focus-within .searchRecentModel{
+    display: block;
+}
+.recentIcon{
+    width: 16px;
+    margin-right: 20px;
+}
+.recentItem{
     display: flex;
     align-items: center;
 }
-.searchIcon{
-    width: 20px;
-}
-.inputSearch{
-    width: 100%;
-}
+
