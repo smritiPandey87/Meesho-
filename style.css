@@ -1,10 +1,14 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    --hoverTextColor: rgba(203, 67, 172, 0.957);
+}
 body{
     margin: 0;
     padding: 0;
     width:  100%;
+    color: rgba(135, 142, 142, 0.785);
 
 }
 img{
@@ -17,6 +21,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: 400;
 }
 .headerleft,
 .headerRight{
@@ -86,16 +91,25 @@ form{
 .mobileIcon{
     width: 15px ;
     margin: 5px;
+    margin-top: 12px;
 }
 .downloadContainer{
     display: flex;
     align-items: center;
     height: 100%;
+    padding-right: 20px;
+    margin-left: 15px;
+    font-size: 20px;
 }
-.downloadContainer{
-  padding: 0;
-  margin: 0;
+.downloadContainer:hover{
+    color: var(--hoverTextColor);
+    cursor: pointer;
 }
+.downlaodBtn{
+    display: block;
+    width: 100px;
+}
+
 .profileAndCart{
     display: flex;
     align-items: center;
@@ -120,4 +134,15 @@ padding:0;
     align-items: center;
     flex-direction: column;
 
+}
+.BecomeSupplierConatiner{
+    padding:0px 30px;
+    border-left: 1.5px solid rgba(185, 184, 185, 0.889);
+    border-right: 1.5px solid rgba(185, 184, 185, 0.889);
+    
+    font-size: 20px;
+}
+.BecomeSupplierConatiner:hover{
+    color: var(--hoverTextColor);
+    cursor: pointer;
 }
