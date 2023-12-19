@@ -2,17 +2,18 @@
     box-sizing: border-box;
 }
 :root{
-    --hoverTextColor: rgba(203, 67, 172, 0.957);
+    --hoverTextColor: rgba(105, 7, 82, 0.897);
+    --textcolor :  rgba(25, 26, 26, 0.29);
 }
 body{
     margin: 0;
     padding: 0;
     width:  100%;
-    color: rgba(135, 142, 142, 0.785);
+    color: var(--textcolor);
 
 }
 img{
-    width:  200%;
+    width:  153%;
 }
 .header{
     height: 78px;
@@ -64,13 +65,14 @@ form{
     bottom: 0;
     left: 0;
     top: 29px;
-    /* outline: 1px solid rgba(185, 184, 185, 0.889); */
+     outline: 1px solid rgba(185, 184, 185, 0.889); 
     height: 350px;
     width: 93%;
     margin-top: 28px;
     display: none;
     padding: 15px;
-    box-shadow: 0px 0px 5px rgba(185, 184, 185, 0.889);
+    /* box-shadow: 0px 0px 5px rgba(185, 184, 185, 0.889); */
+    color: rgba(37, 36, 36, 0.779);
     
 
 
@@ -97,9 +99,16 @@ form{
     display: flex;
     align-items: center;
     height: 100%;
-    padding-right: 20px;
-    margin-left: 15px;
-    font-size: 20px;
+    padding-right: 50px;
+    margin-left: 30px;
+    font-size: 19px;
+    position: relative;
+    padding:0px 30px;
+    
+    border-right: 1.5px solid rgba(185, 184, 185, 0.889);
+   
+    color: rgba(37, 36, 36, 0.779);
+    
 }
 .downloadContainer:hover{
     color: var(--hoverTextColor);
@@ -107,42 +116,78 @@ form{
 }
 .downlaodBtn{
     display: block;
-    width: 100px;
+    width: 90px;
+    margin-top:5px;
+    color: var(--textcolor);
+}
+.downloadHoverBtnContainer{
+    position: absolute;
+    bottom: 0;
+    top: 80px;
+    display: none;
+    height: 197px;
+    box-shadow: 0px 0px 19px rgba(185, 184, 185, 0.889);
+    width: 109%;
+    padding: 10px;
+    margin-left: -30px;
+    color: var(--textcolor);
+    
+}
+.downloadContainer:hover .downloadHoverBtnContainer{
+    display: block;
+    color:rgba(37, 36, 36, 0.779);
+
 }
 
-.profileAndCart{
+.profileAndCart {
     display: flex;
     align-items: center;
+    color: rgba(37, 36, 36, 0.779); 
 }
 .profileIcon{
     width: 15px;
+    align-items: center;
+   
 }
 .CartIcon{
     width: 15px;
     
-   
+    
     align-items: center;
 }
-.profileAndCart p{
-margin: 0;
-padding:0;
+.profileAndCart{
+    margin: 0;
+    padding:0;
+    
+}
+.profileAndCart:hover{
+    color: var(--hoverTextColor);
+
 }
 .profileContainer,
-.CartContainer{
+.CartContainer p{
     padding:0px 25px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    color:rgba(37, 36, 36, 0.779);
 
 }
-.BecomeSupplierConatiner{
+.BecomeSupplierConatiner p{
     padding:0px 30px;
     border-left: 1.5px solid rgba(185, 184, 185, 0.889);
     border-right: 1.5px solid rgba(185, 184, 185, 0.889);
-    
-    font-size: 20px;
+    color:rgba(37, 36, 36, 0.779);
+    font-size: 19px;
 }
-.BecomeSupplierConatiner:hover{
+/* .BecomeSupplierConatiner:hover{
     color: var(--hoverTextColor);
     cursor: pointer;
+} */
+.NewsroomContainer {
+    padding:0px 30px;
+    border-left: 1.5px solid rgba(185, 184, 185, 0.889);
+    border-right: 1.5px solid rgba(185, 184, 185, 0.889);
+    color: rgba(37, 36, 36, 0.779);
+    font-size: 19px;
 }

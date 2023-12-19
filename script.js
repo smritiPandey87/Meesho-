@@ -26,7 +26,7 @@ formInputEl.addEventListener("submit" , (e) =>{
 
     let listofRecentHTMLEl = ""
 
-    recentInput.push(inputSearchEl.value)
+    recentInput.unshift(inputSearchEl.value)
     console.log(e.value , "value")
 
     if (recentInput.length > 0) {
