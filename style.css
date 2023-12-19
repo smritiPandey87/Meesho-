@@ -84,9 +84,40 @@ form{
 
 /* right */
 .mobileIcon{
-    width: 20px ;
+    width: 15px ;
+    margin: 5px;
 }
 .downloadContainer{
     display: flex;
     align-items: center;
+    height: 100%;
+}
+.downloadContainer{
+  padding: 0;
+  margin: 0;
+}
+.profileAndCart{
+    display: flex;
+    align-items: center;
+}
+.profileIcon{
+    width: 15px;
+}
+.CartIcon{
+    width: 15px;
+    
+   
+    align-items: center;
+}
+.profileAndCart p{
+margin: 0;
+padding:0;
+}
+.profileContainer,
+.CartContainer{
+    padding:0px 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
