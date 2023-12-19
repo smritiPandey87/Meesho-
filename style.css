@@ -16,6 +16,12 @@ img{
     padding: 0px 9px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.headerleft,
+.headerRight{
+    display: flex;
+    align-items: center;
 }
 .logoContainer{
     width: 155px;
@@ -76,3 +82,11 @@ form{
     align-items: center;
 }
 
+/* right */
+.mobileIcon{
+    width: 20px ;
+}
+.downloadContainer{
+    display: flex;
+    align-items: center;
+}
