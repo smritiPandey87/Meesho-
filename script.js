@@ -1,3 +1,23 @@
+import BagsAndFootwear from "./data/BagsAndFootwear"
+import WomenWestern from "./data/WomenWestern"
+import WomenEthnic from "./data/WomenEthnic"
+import Men from "./data/Men"
+import Kids from "./data/Kids"
+import BeautyAndHealth from "./data/BeautyAndHealth"
+import HomeAndKitchen from "./data/HomeAndKitchen"
+
+import JewelleryAndAccessories from "./data/JewelleryAndAccessories"
+import Electronic from "./data/Electronics"
+
+
+
+
+
+
+
+
+
+
 let inputSearchEl = document.querySelector(".inputSearch")
 let recentInput = []
 let formInputEl = document.getElementById("inputForm")

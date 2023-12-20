@@ -15,6 +15,7 @@ const WomenWestern =[
     {
         heading :"Sleepwear",
         data : ["nightsuits","Babydolls"]
-    },
+    }
    
 ]
+export default WomenWestern

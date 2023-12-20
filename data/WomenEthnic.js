@@ -34,9 +34,10 @@ const   WomenEthnic = [
         heading :"Other Ethnic",
         data : ["Blouses","Dupattas","Lehanga","Gown",
         "Ethnic Bottomwea"]
-    },
+    }
    
    
    
 ]
+export default WomenEthnic
 

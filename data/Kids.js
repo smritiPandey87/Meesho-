@@ -16,3 +16,4 @@ const Kids = [
         data :["All Baby Care"] 
     },
 ]
+export default Kids 
