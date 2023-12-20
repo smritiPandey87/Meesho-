@@ -229,10 +229,19 @@ nav ul li:hover {
 /**module box subMenu**/
 .subMenu{
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     height: 400px;
     top: 52px;
+    left: 0;
+    right: 10px;
     background-color: white;
     border: 1px solid rgba(185, 184, 185, 0.889);
     box-sizing: border-box;
+    display: none;
+    margin: 0px 15px;
 }
+
+
+nav ul li:hover .subMenu{
+    display: block;
+} 
