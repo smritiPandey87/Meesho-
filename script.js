@@ -1,13 +1,12 @@
-import BagsAndFootwear from "./data/BagsAndFootwear"
-import WomenWestern from "./data/WomenWestern"
-import WomenEthnic from "./data/WomenEthnic"
-import Men from "./data/Men"
-import Kids from "./data/Kids"
-import BeautyAndHealth from "./data/BeautyAndHealth"
-import HomeAndKitchen from "./data/HomeAndKitchen"
-
-import JewelleryAndAccessories from "./data/JewelleryAndAccessories"
-import Electronic from "./data/Electronics"
+import BagsAndFootwear from "./data/BagsAndFootwear.js"
+import WomenWestern from "./data/WomenWestern.js"
+import WomenEthnic from "./data/WomenEthnic.js"
+import Men from "./data/Men.js"
+import Kids from "./data/Kids.js"
+import BeautyAndHealth from "./data/BeautyAndHealth.js"
+import HomeAndKitchen from "./data/HomeAndKitchen.js"
+import JewelleryAndAccessories from "./data/JewelleryAndAccessories.js"
+import Electronics from "./data/Electronics.js"
 
 
 
@@ -68,7 +67,35 @@ formInputEl.addEventListener("submit" , (e) =>{
 })
 
 
+/*** WomenWestern */
+  let WomenEthnic = document.getElementById("WomenEthnic")
+  
+  
+ 
 
 
+// function  WomenEthnicfunc(){
+
+//      return Array  (elemts) .WomenEthnic.map(el =>{
+//         return`
+//         <div>
+//         <h4>${el.heading}</h4>
+//         ${
+//             el.data.forEach(element =>{
+//                 return `
+//                 <p>${element}</p>
+
+//                 `
+//             })
+//         }
+//         </div>
+//         `
+        
+
+//     })
+// }
+//  WomenEthnic.innerHTML =  WomenEthnicfunc()
+
+  
 
 

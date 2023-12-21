@@ -3,7 +3,7 @@
 }
 :root{
     --hoverTextColor: rgba(105, 7, 82, 0.897);
-    --textcolor :  rgba(25, 26, 26, 0.29);
+    --textcolor :  rgba(19, 21, 21, 0.555);
 }
 body{
     margin: 0;
@@ -230,7 +230,7 @@ nav ul li:hover {
 .subMenu{
     position: absolute;
     /* width: 100%; */
-    height: 400px;
+    /* height: 400px; */
     top: 52px;
     left: 0;
     right: 10px;
@@ -239,9 +239,13 @@ nav ul li:hover {
     box-sizing: border-box;
     display: none;
     margin: 0px 15px;
+    padding: 20px;
 }
 
 
 nav ul li:hover .subMenu{
     display: block;
 } 
+.subMenu p{
+    color: var(--textcolor)
+}
