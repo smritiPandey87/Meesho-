@@ -407,3 +407,81 @@ nav ul li:hover .subMenu{
     margin-top: 192px;
     padding: 3px 139px;
 }
+.EssentailsContainer{
+    width: 100vw;
+    height: 500px;
+    padding: 90px 0p;
+    align-items: center;
+}
+
+.EssentialsImg{
+    width: 100vw;
+    height: 500px;
+    background-image: url("https://images.meesho.com/images/marketing/1678691743015_1200.webp");
+    background-repeat: no-repeat;
+    padding: 0px 24px 0px 28px;
+    margin-top: 60px;
+    margin-left: 212px;
+    
+    
+}
+.viewImg{
+    width: 185px;
+    height: 70px;
+    align-items: center;
+    
+    margin-top: 237px;
+     margin-left: 60px;
+}
+.homeImg{
+    width: 197px;
+    height: 331px;
+    
+     margin-top: -446px;
+  margin-left: 563px;
+  margin-bottom: 158px;
+}
+.hometext{
+    width: 175px;
+    height: 64px;
+    
+    margin-left: 290px;
+  margin-top: -92px;
+}
+.kitchenimg{
+    width: 197px;
+    height: 331px;
+    
+    margin-top: -468px;
+    margin-left: 806px;
+    margin-bottom: 181px;
+  }
+.kitchentext{
+    
+  
+  width: 180px;
+  height: 64px;
+  margin-left: 416px;
+  margin-top: -81px;
+  margin-bottom: 140px;
+   
+}
+.healthImg{
+    width: 190px;
+  height: 331px;
+  margin-top: -669px;
+  margin-left: 1046px;
+  margin-bottom: 332px
+  }
+  .healthtext{
+    
+  
+  width: 192px;
+  height: 64px;
+  margin-left: 527px;
+  margin-top: -151px;
+  
+  margin-bottom: 148px;
+  }
+
+    
