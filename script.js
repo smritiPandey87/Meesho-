@@ -1,4 +1,4 @@
-import BagsAndFootwear from "./data/BagsAndFootwear.js"
+// import BagsAndFootwear from "./data/BagsAndFootwear.js"
 import WomenWestern from "./data/WomenWestern.js"
 import WomenEthnic from "./data/WomenEthnic.js"
 import Men from "./data/Men.js"
@@ -68,7 +68,7 @@ formInputEl.addEventListener("submit" , (e) =>{
 
 
 /*** WomenWestern */
-  let WomenEthnic = document.getElementById("WomenEthnic")
+//   let WomenEthnic = document.getElementById("WomenEthnic")
   
   
  

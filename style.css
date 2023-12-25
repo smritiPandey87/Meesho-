@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
     width:  100%;
-    color: var(--textcolor);
+    /* color: var(--textcolor); */
 
 }
 img{
@@ -248,4 +248,162 @@ nav ul li:hover .subMenu{
 } 
 .subMenu p{
     color: var(--textcolor)
+}
+
+
+/************* lowest prices************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.classLowestPirceContainer{
+    display: flex;
+    /* margin-left: 282px; */
+    margin-top: 90px;
+    padding: 0px 275px;
+    justify-content: center;
+
+}
+.classLowestPriceInfoContainer{
+    /* width: 22%; */
+    padding: 40px 45px 40px 48px;
+    background-color: rgb(248, 248, 255);
+
+}
+.classLowestPriceHeader{
+    color: rgb(53, 53, 67);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  font-family: Mier bold;
+  margin: 0px;
+  padding: 0px;
+}
+.lowestPricefeatures{
+    width: 75px;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 23px; */
+    /* border-radius: 2px; */
+    
+}
+.classfree>img,.classcash>img,.classeasy>img{
+    /* justify-content: space-between; */
+    /* margin-right: 60px; */
+    
+    width: 32px;
+    height: 32px;
+    
+  
+}
+.classfree>p,.classcash>p,.classeasy>p{
+    color: rgb(53, 53, 67);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Mier demi;
+  margin: 0px;
+  padding: 0px 0px 0px 8px;
+}
+
+.classfree,.classfree,.classeasy{
+    border-radius: 8px;
+  margin-top: 28px;
+  padding: 9px 16px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+.classlowestPriceImages{
+    /* width: 35%; */
+    height:400px;
+    width:  519px;
+    
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.TopCategeries{
+    
+    
+    margin: auto;
+    height: 44px;
+    width: 1106px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.TopCategeriesHeading{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    height: 44px;
+    width: 901px;
+    /* padding: 230px 0px; */
+    
+
+}
+.HorizontalLine{
+    padding: 1px;
+  background-color: var(--hoverTextColor);
+  width: 500px;
+}
+.TopCategeriesHeading{
+    white-space: nowrap;
+    
+      font-size: 26px;
+}
+.BeFashionForwardFrom{
+    display: flex;
+}
+.BeFashionForwardFrom{
+    width: 1106px;
+    height: 526px;
+    /* padding: 100px 28px 35px; */
+    background-image: url(https://images.meesho.com/images/marketing/1678691670429_1200.webp);
+    margin-left:205px;
+    margin-top: 90px; 
+    background-repeat: no-repeat; 
+   
+       gap: 15px;
+    
+}
+.BeFashiomForwardImg{
+    width: 350px;
+    margin: 10px;
+    height: 429px;
+    margin-top: 60px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  text-align: left;
+  
+  margin-top: 35px;
+}
+.BeFashionForwardimg{
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  text-align: left;
+  
+   
+    margin-top: 192px;
+    padding: 3px 139px;
 }
