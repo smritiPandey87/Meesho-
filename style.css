@@ -562,3 +562,74 @@ nav ul li:hover .subMenu{
   margin-top: -312px;
   margin-bottom: 382px;
 }
+/***BeComeaSeller**/
+*{
+    margin: 0;
+    padding: 0;
+}
+.BecomeaSellerImg{
+    width: 100vw;
+  height: 500px;
+  background-image:url("https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp");
+  background-repeat: no-repeat;
+    padding: 0px 24px 0px 28px;
+    margin-top: -209px;
+    margin-left: 201px;
+    cursor: pointer;
+}
+.text{
+    
+    width: 200px;
+  
+  color: rgb(85, 133, 248);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: Mier book;
+  white-space: nowrap;
+  margin-left: 483px;
+  margin-top: -444px;
+  
+}
+.texts{
+    font-size: 49px;
+  line-height: 100px;
+  font-family: Mier bold;
+  justify-content: space-between;
+  margin-left: 790px;
+  letter-spacing: 0.5px;
+  color: rgb(159, 32, 137);
+  font-style: normal;
+  font-weight: 679;
+  
+}
+.textt{
+    color: rgb(159, 32, 137);
+  font-style: normal;
+  font-weight: 699;
+  font-weight: 687;
+  font-size: 52px;
+  line-height: 87px;
+  font-family: Mier bold;
+  justify-content: space-between;
+  margin-left: 841px;
+  letter-spacing: 0.5px;
+  margin-top: -26px;
+  
+}
+.playImg{
+    
+    width: 209px;
+  height: 56px;
+  margin-left: 862px;
+  margin-top: 56px;
+}
+.storreImg{
+    
+    width: 204px;
+  height: 56px;
+  margin-left: 1109px;
+  margin-top: -60px;
+  margin-bottom: 812px;
+}
