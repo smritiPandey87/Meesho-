@@ -264,6 +264,7 @@ nav ul li:hover .subMenu{
     margin-top: 90px;
     padding: 0px 275px;
     justify-content: center;
+    cursor: pointer;
 
 }
 .classLowestPriceInfoContainer{
@@ -290,6 +291,7 @@ nav ul li:hover .subMenu{
     justify-content: space-between;
     /* margin-top: 23px; */
     /* border-radius: 2px; */
+    cursor: pointer;
     
 }
 .classfree>img,.classcash>img,.classeasy>img{
@@ -318,6 +320,7 @@ nav ul li:hover .subMenu{
   padding: 9px 16px;
   background-color: rgb(255, 255, 255);
   display: flex;
+  cursor: pointer;
 }
 .classlowestPriceImages{
     /* width: 35%; */
@@ -365,6 +368,7 @@ nav ul li:hover .subMenu{
 }
 .BeFashionForwardFrom{
     display: flex;
+    cursor: pointer;
 }
 .BeFashionForwardFrom{
     width: 1106px;
@@ -412,6 +416,7 @@ nav ul li:hover .subMenu{
     height: 500px;
     padding: 90px 0p;
     align-items: center;
+    cursor: pointer;
 }
 
 .EssentialsImg{
@@ -422,6 +427,7 @@ nav ul li:hover .subMenu{
     padding: 0px 24px 0px 28px;
     margin-top: 60px;
     margin-left: 212px;
+    cursor: pointer;
     
     
 }
@@ -471,7 +477,7 @@ nav ul li:hover .subMenu{
   height: 331px;
   margin-top: -669px;
   margin-left: 1046px;
-  margin-bottom: 332px
+  margin-bottom: 332px;
   }
   .healthtext{
     
@@ -484,4 +490,75 @@ nav ul li:hover .subMenu{
   margin-bottom: 148px;
   }
 
+    /******New styles***/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.NewStylesImg{
+  width: 100vw;
+  height: 500px;
+  background-image: url("https://images.meesho.com/images/marketing/1678691892265_1200.webp");
+  background-repeat: no-repeat;
+    padding: 0px 24px 0px 28px;
+    margin-top: 74px;
+    margin-left: 212px;
+    cursor: pointer;
+}
+.ViewiImg{
+    width: 185px;
+    height: 70px;
+    align-items: center;
     
+    margin-top: 268px;
+     margin-left: 60px;
+}
+.AccesserImg{
+    width: 197px;
+    height: 331px;
+    
+     margin-top: -446px;
+  margin-left: 563px;
+  margin-bottom: 158px;
+}
+.accetext{
+    
+    width: 190px;
+  height: 65px;
+  margin-left: 568px;
+  margin-top: -141px;
+  margin-bottom: 88px;
+    
+    
+}
+.footImg{
+    width: 197px;
+    height: 331px;
+    
+    margin-top: -513px;
+    margin-left: 806px;
+    margin-bottom: 196px;
+}
+.footText{
+    
+    width: 194px;
+    height: 69px;
+    margin-left: 813px;
+    margin-top: -176px;
+    margin-bottom: 187px;
+}
+.ElectronicImg{
+    width: 190px;
+  height: 331px;
+  margin-top: -612px;
+  margin-left: 1046px;
+  margin-bottom: 332px;
+}
+.Electext{
+    width: 202px;
+  height: 69px;
+  margin-left: 1055px;
+  margin-top: -312px;
+  margin-bottom: 382px;
+}
