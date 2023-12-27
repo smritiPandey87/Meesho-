@@ -700,3 +700,63 @@ font-size: 18px;
   white-space: nowrap;
 }
 
+.ProductsYouu{
+    color: rgb(53, 53, 67);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: Mier book;
+  text-align: left;
+  margin: 0px;
+  padding: 0px 0px 28px;
+  margin-top: -411px;
+  margin-left: 50px;
+}
+.sortlisted{
+    margin-left: 59px;
+    display: flex;
+  /* -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center; */
+  padding: 0px;
+  text-decoration: none;
+  min-width: 59px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 11px;
+  border-radius: 5px;
+  width: 238px; 
+}
+/* .revel,.revel.new,.low,.price,.rating,.diss{
+    color: rgb(53, 53, 67);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Mier demi;
+  margin: 0px;
+  padding: 0px */
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .sortlistede{
+    
+        margin-left: 21px;
+        font-size: 14px;
+  }
+  
+  
