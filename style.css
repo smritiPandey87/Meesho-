@@ -713,6 +713,20 @@ font-size: 18px;
   margin-top: -411px;
   margin-left: 50px;
 }
+.sortby{
+  white-space: nowrap;
+}
+#reveel{
+  
+      font-size: 16px;
+  width: 234px;
+  height: 23px;
+  margin-top: 2px;
+  margin-left: 11px;
+  background-color: white;
+  border: none;
+  outline: none;
+}
 .sortlisted{
     margin-left: 59px;
     display: flex;
@@ -727,7 +741,7 @@ font-size: 18px;
   border: 1px solid #ccc;
   padding: 11px;
   border-radius: 5px;
-  width: 238px; 
+  width: 292px; 
 }
 /* .revel,.revel.new,.low,.price,.rating,.diss{
     color: rgb(53, 53, 67);
@@ -757,6 +771,111 @@ font-size: 18px;
     
         margin-left: 21px;
         font-size: 14px;
+  }
+  /** product filter **/
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .filters{
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Border radius for rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px; 
+    height: 933px;
+  width: 299px;
+  margin-left: 58px;
+  }
+  .verticalline{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #3d3b3b; /* Color of the horizontal line */
+    margin-top: 10px
+  }
+
+  
+  #cate{
+    width: 645px;
+    font-size: 21px;
+  width: 261px;
+  height: 43px;
+  margin-top: 2px;
+  margin-left: -3px;
+  background-color: white;
+  border: none;
+      outline: none;
+  }
+  .verticalline{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #3d3b3b; /* Color of the horizontal line */
+    margin-top: 10px;
+  }
+  #genderr{
+    width: 645px;
+    font-size: 21px;
+  width: 261px;
+  height: 43px;
+  margin-top: 2px;
+  margin-left: -3px;
+  background-color: white;
+  border: none;
+      outline: none;
+  }
+  .verticalline{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #3d3b3b; /* Color of the horizontal line */
+    margin-top: 10px;
+  }
+  #febricc{
+    width: 645px;
+    font-size: 21px;
+  width: 261px;
+  height: 43px;
+  margin-top: 2px;
+  margin-left: -3px;
+  background-color: white;
+  border: none;
+      outline: none;
+  }
+
+  #oxfordd{
+    width: 645px;
+    font-size: 21px;
+  width: 261px;
+  height: 43px;
+  margin-top: 2px;
+  margin-left: -3px;
+  background-color: white;
+  border: none;
+      outline: none;
+  }
+  #shapee{
+    width: 645px;
+    font-size: 21px;
+  width: 261px;
+  height: 43px;
+  margin-top: 2px;
+  margin-left: -3px;
+  background-color: white;
+  border: none;
+      outline: none;
+  }
+  #colorr,#coins,#pricee,#malll,#Occass,#combo,#kurts,#duptaa,#dissc,#ratee
+    {
+    width: 645px;
+    font-size: 21px;
+  width: 261px;
+  height: 43px;
+  margin-top: 2px;
+  margin-left: -3px;
+  background-color: white;
+  border: none;
+      outline: none;
   }
   
   
