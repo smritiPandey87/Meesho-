@@ -797,7 +797,7 @@ font-size: 18px;
   
   #cate{
     width: 645px;
-    font-size: 21px;
+    font-size: 17px;
   width: 261px;
   height: 43px;
   margin-top: 2px;
@@ -815,7 +815,7 @@ font-size: 18px;
   }
   #genderr{
     width: 645px;
-    font-size: 21px;
+    font-size: 17px;
   width: 261px;
   height: 43px;
   margin-top: 2px;
@@ -833,7 +833,7 @@ font-size: 18px;
   }
   #febricc{
     width: 645px;
-    font-size: 21px;
+    font-size: 17px;
   width: 261px;
   height: 43px;
   margin-top: 2px;
@@ -845,7 +845,7 @@ font-size: 18px;
 
   #oxfordd{
     width: 645px;
-    font-size: 21px;
+    font-size: 17px;
   width: 261px;
   height: 43px;
   margin-top: 2px;
@@ -856,7 +856,7 @@ font-size: 18px;
   }
   #shapee{
     width: 645px;
-    font-size: 21px;
+    font-size: 17px;
   width: 261px;
   height: 43px;
   margin-top: 2px;
@@ -868,7 +868,7 @@ font-size: 18px;
   #colorr,#coins,#pricee,#malll,#Occass,#combo,#kurts,#duptaa,#dissc,#ratee
     {
     width: 645px;
-    font-size: 21px;
+    font-size: 17px;
   width: 261px;
   height: 43px;
   margin-top: 2px;
@@ -877,5 +877,122 @@ font-size: 18px;
   border: none;
       outline: none;
   }
+  /**product page**/
+  
+  .produts{
+    
+    width: 17%;
+  height: 443px;
+  
+  border: 1px solid #cfcaca;
+  margin-left: 388px;
+  margin-top: -1031px;
+  margin-bottom: 88px;
+  border-radius: 17px;
+
+  }
+  .saver{
+    
+      /* margin-top: 40px; */
+    margin-top: 14px;
+    width: 59%;
+  margin: 19px;
+  }
+  .lint,.skir{
+    color: rgb(139, 139, 163);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Mier book;
+  margin-left: 20px;
+ 
+  }
+  .rupe,.rupee,.rupees{
+    font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 26px;
+  font-family:Mier Bold;
+  margin-left: 20px;
+  }
+  .onwar,.onwarr,.onnwarr{
+    
+    font-style: normal;
+    font-weight: 498;
+    font-size: 16px;
+    line-height: -10px;
+    font-family: Mier book;
+    margin-left: 57px;
+    margin-top: -22px;
+    color: rgb(139, 139, 163);
+  }
+  .dell,.delll,.deelll{
+    
+  background-color: rgb(229, 229, 240);
+  border-radius: 5px;
+  width: 103px;
+  margin-left: 23px;
+  margin-top: 5px;
+  
+  }
+  .raat,.raaat,.raaatt{
+    
+  
+  background-color: rgba(11, 105, 32, 0.82);
+  border-radius: 39px;
+  width: 42px;
+  margin-left: 23px;
+  margin-top: 12px;
+  font-size: 17px;
+  color: white
+  
+  
+  }
+  
+  
+  .produtss{
+    
+  width: 17%;
+  height: 443px;
+  border: 1px solid #cfcaca;
+  margin-left: 686px;
+  margin-top: -530px;
+  margin-bottom: 88px;
+  border-radius: 17px;
+
+  }
+  .cap{
+    margin-top: 14px;
+    width: 59%;
+  margin: 19px;
+  }
+  .caap{
+    color: rgb(139, 139, 163);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 59px;
+  font-family: Mier book;
+  margin-left: 20px;
+  }
+  .produts3{
+    width: 17%;
+  height: 443px;
+  border: 1px solid #cfcaca;
+  margin-left: 997px;
+  margin-top: -530px;
+  margin-bottom: 88px;
+  border-radius: 17px;
+
+  }
+  .skirts{
+    margin-bottom: 7px;
+    width: 53%;
+  margin: 12px;
+  }
+
+
+
   
   
