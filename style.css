@@ -991,7 +991,40 @@ font-size: 18px;
     width: 53%;
   margin: 12px;
   }
+  /***footcontainer***/
+.FooterContainer{
 
+   
+  
+  line-height: 376px;
+  
+  max-width: 1548px;
+  
+  background-color: #faf7fc;
+  margin-top: 640px;
+  margin-left: -6px;
+}
+.shopp{
+  color: rgb(34, 34, 37);
+    
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 195px;
+  font-family: Mier book;
+ 
+  margin-left: 134px;
+}
+.shoep{
+  color: rgb(97, 97, 115);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Mier bold;
+  margin-top: -70px;
+  margin-left: 129px;
+}
 
 
   
