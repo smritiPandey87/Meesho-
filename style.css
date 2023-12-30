@@ -991,41 +991,110 @@ font-size: 18px;
     width: 53%;
   margin: 12px;
   }
-  /***footcontainer***/
-.FooterContainer{
 
-   
-  
-  line-height: 376px;
-  
-  max-width: 1548px;
-  
-  background-color: #faf7fc;
-  margin-top: 640px;
-  margin-left: -6px;
+
+  /***footerlist****/
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.shopp{
-  color: rgb(34, 34, 37);
+  .footerlist{
+    display: flex;
+    /* margin-left: 282px; */
+    margin-top: 90px;
+    padding: 0px 275px;
     
+    cursor: pointer;
+
+  }
+  .likk{position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 8px;
+  padding-left: 8px;
+  }
+  .terr{
+      
+  color: rgb(64, 64, 75);
   font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 195px;
+  font-weight: 502;
+  font-size: 34px;
+  line-height: 1228px;
   font-family: Mier book;
- 
-  margin-left: 134px;
-}
-.shoep{
+  margin-left: -181px;
+  }
+  .teer{
+    
+    
   color: rgb(97, 97, 115);
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  font-family: Mier bold;
-  margin-top: -70px;
-  margin-left: 129px;
+  font-size: 17px;
+  line-height: -46px;
+  font-family: Mier book;
+  margin-top: -574px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
+  margin-left: -191px;
+  
+  }
+  .teere{
+    color: rgb(97, 97, 115);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: -46px;
+  font-family: 'Roboto', sans-serif;
+
+  letter-spacing: 0.5px;
+  margin-top: 7px;
+  margin-left: -183px;
+
+  }
+  .iim{
+
+    width: 24%;
+    margin-top: 55px;
+    margin-left: -197px;
+  border-radius: 9px;
+   
+  }
+  .iimm{
+    width: 24%;
+  margin-top: -54px;
+  margin-left: 22px;
+    
+   
+    border-radius: 10px;
+  margin-bottom: 31px;
+}
+.calee{
+  
+    color: rgb(97, 97, 115);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    margin-left: -611px;
+  margin-top: 571px;
 }
 
+  .rere{
+    margin-top: 21px;
+  }
 
-  
+  /* .epiic{
+    color: rgb(97, 97, 115);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    margin-left: 234px;
+  margin-top: -235px; */
   
